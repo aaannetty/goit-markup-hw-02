@@ -13,6 +13,9 @@
 body {
     font-family:  Roboto, sans-serif;
     color: var(--dark);
+    background-color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
 .logo {
@@ -22,6 +25,7 @@ body {
     font-size: 18px;
     line-height: 1.3;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .web {
@@ -111,7 +115,7 @@ color: var(--dark);
 }
 
 .main-title {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -121,6 +125,7 @@ color: var(--dark);
 
 button {
     cursor: pointer;
+    font-family: Roboto, sans-serif;
 }
 
 .features {
@@ -133,9 +138,7 @@ button {
 
 .features-descr {
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--text);
 }
 
@@ -143,11 +146,15 @@ button {
     color: var(--light);
 }
 
-.header2 {
+.section-title {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+}
+
+.team-workers {
+    background-color: var(--light);
 }
 
 .worker-name {
@@ -195,6 +202,7 @@ footer {
 }
 
 .filter-buttons {
+    font-family: inherit;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -204,10 +212,11 @@ footer {
     border: none;
 }
 
-/* .filter-buttons:hover {
-    background-color: var(--button-active);
+ .filter-buttons:hover,
+ .filter-buttons:focus {
+    background-color: var(--primary-brand);
     color: var(--white-text-color);
-} */
+ }
 
 .filter-buttons:active {
     background-color: var(--primary-brand);
