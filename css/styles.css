@@ -39,6 +39,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.17;
+    letter-spacing: 0.04em;
 }
 
 .main-button:hover {
@@ -125,7 +126,7 @@ color: var(--dark);
 
 button {
     cursor: pointer;
-    font-family: Roboto, sans-serif;
+    font-family: inherit;
 }
 
 .features {
@@ -165,10 +166,7 @@ button {
 }
 
 .position {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--text);
 }
 
@@ -177,6 +175,7 @@ footer {
 }
  
 .footer-text {
+    line-height: 1.5;
     color: var(--accent);
 }
 
@@ -203,7 +202,7 @@ footer {
 
 .filter-buttons {
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -235,9 +234,6 @@ footer {
 }
 
 .project-type {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--text);
 }
